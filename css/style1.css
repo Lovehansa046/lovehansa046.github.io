@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 50px;
+    text-align: center;
+    background: #27353f;
+    color: #ffff;
+}
+img {
+    width: 100%;
+    height: 100%;
+ }
+ 
+section{
+    min-height: 800px;
+    background: url(me.jpg) center/cover no-repeat;
+}
+.myProjects{
+    margin-top: 30px;
+}
+.myProjects a{
+    color: #39bedc;
+}
