@@ -1,0 +1,442 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #1E1E1E;
+}
+
+.navbar {
+    background: #38A0FF;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.navbar .links {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar .links .link-item {
+    display: inline-flex;
+    margin-left: 140px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 160px;
+    height: 60px;
+    border-radius: 19px;
+    margin-bottom: 20px;
+    transition: 1s;
+}
+
+.navbar .links .link-item-active {
+    display: inline-flex;
+    margin-left: 140px;
+    background-color: #FFCA0F;
+    text-align: center;
+    width: 160px;
+    height: 60px;
+    border-radius: 19px;
+    margin-bottom: 20px;
+    transition: 1s;
+}
+
+.navbar .links .link-item-active a {
+    width: 170px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: auto;
+    transition: 1s;
+}
+
+.navbar .links .link-item:hover {
+    background-color: #FFCA0F;
+}
+
+.navbar .links .link-item a {
+    width: 170px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: auto;
+    transition: 1s;
+}
+
+.menu {
+    display: none;
+}
+
+.menu .menu-line {
+    width: 30px;
+    height: 3px;
+    margin-right: 25px;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 5px;
+
+}
+
+.primary-icon {
+    height: 200px;
+    margin: -100px;
+    margin-left: -70px;
+    margin-bottom: auto;
+    margin-top: auto;
+
+    display: none;
+}
+
+
+
+.card-body {
+    padding-top: 1px;
+    background: linear-gradient(154.92deg, #38A0FF 0.72%, rgba(255, 255, 255, 0) 122.42%);
+    width: 220px;
+    height: 330px;
+    border: none;
+    border-radius: 15px;
+}
+
+.card-title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.card-text {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card-text .btn-reg a {
+    text-decoration: none;
+    color: black;
+    
+}
+.card-text .btn-reg:hover {
+    transform: scale(1.1);
+}
+.card-text .btn-reg {
+    text-align: center;
+    margin-bottom: 10px;
+    width: 160px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 16px;
+    transition: 1.2s;
+    border-radius: 10px;
+    border: none;
+    background: #FFCA0F;
+}
+
+.card-button .btn-link{
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+
+}
+
+
+.card-button:hover {
+    transform: scale(1.1);
+}
+.card-button {
+    width: 200px;
+    height: 60px;
+    border-radius: 15px;
+    border: none;
+    background: #FFCA0F;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 6px;
+    transition: 1.4s;
+}
+
+.card {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.card-full {
+    margin-top: 90px;
+    margin-bottom: auto;
+    margin-left: -50px;
+    display: flex;
+
+}
+
+
+
+
+
+.card-text .btn-reg-tech a {
+    text-decoration: none;
+    color: black;
+    
+}
+.card-text .btn-reg-tech {
+    text-align: center;
+    margin-bottom: 10px;
+    width: 190px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 16px;
+    transition: 1.2s;
+    border-radius: 10px;
+    border: none;
+    background: #FFCA0F;
+}
+
+.card-text .btn-reg-tech:hover {
+    transform: scale(1.1);
+}
+
+.button-back:hover {
+    transform: scale(1.3);
+}
+.button-back {
+    margin: 100px;
+    text-align: center;
+    transition: 1.3s;
+}
+
+.card-title-description {
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.card-description {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.cards-pesonal {
+    padding-top: 50px;
+
+    display: flex;
+}
+
+.card-body-personal {
+    margin-bottom: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    border: none;
+    border-radius: 20px;
+    background: #FFCA0F;
+    width: 350px;
+
+}
+
+.Title {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.Title img {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 60px;
+    width: 40px;
+    height: 40px;
+}
+
+.Title h3 {
+    margin-left: 10px;
+    margin-top: 25px;
+    font-weight: 900;
+    font-size: 32px;
+    color: black;
+}
+
+.card-text-personal {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 40px;
+    color: black;
+}
+
+.card-form .card-tech {
+    margin-left: auto;
+    text-align: center;
+    border-radius: 30px;
+    background: rgba(56, 160, 255, 0.67);
+    width: auto;
+    height: 200px;
+    margin-top: 60px;
+}
+
+.card-form .card-tech H1 {
+    padding: 15px;
+    font-size: 40px;
+}
+
+.card-form .card-tech H4 {
+    padding: px;
+    font-size: 24px;
+}
+
+.card-form {
+    width: auto;
+    padding: 20px 20px 20px 20px;
+
+}
+
+@media all and (max-width: 1140px) {
+    .navbar {
+        flex-direction: column;
+        position: relative;
+    }
+
+    .primary-icon {
+        display: flex;
+        margin-bottom: -60px;
+        margin-top: -40px;
+    }
+
+    .navbar .container-icon {
+        width: 100%;
+        margin-left: 30px;
+    }
+
+    .menu {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 60px;
+    }
+
+    .links {
+        list-style-type: none;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        display: none;
+    }
+
+    .links .link-item {
+        padding-top: 10px;
+        display: block;
+        border-top: 1px solid white;
+    }
+    .links .link-item-active {
+        padding-top: 10px;
+        display: block;
+        border-top: 1px solid white;
+    }
+
+    .navbar .links .link-item {
+        display: block;
+        margin-left: 80px;
+        background-color: #38A0FF;
+        text-align: center;
+        width: auto;
+        height: auto;
+        border-radius: 0px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        transition: 1s;
+    }
+
+    .navbar .links .link-item a {
+        width: 0px;
+        font-size: 18px;
+        text-decoration: none;
+        /* color: white; */
+        margin: auto;
+        transition: 0s;
+        font-weight: 800;
+    }
+
+    .navbar .links .link-item:hover {
+        background-color: rgba(49, 49, 49, 0);
+    }
+
+    .navbar .links .link-item a:hover {
+        color: #FFCA0F;
+    }
+
+    .navbar .links .link-item-active {
+        display: block;
+        margin-left: 80px;
+        background-color: #38A0FF;
+        text-align: center;
+        width: auto;
+        height: auto;
+        border-radius: 0px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        transition: 1s;
+    }
+
+    .navbar .links .link-item-active a {
+        width: 0px;
+        font-size: 18px;
+        text-decoration: none;
+        /* color: white; */
+        margin: auto;
+        transition: 0s;
+        font-weight: 800;
+    }
+
+    .navbar .links .link-item-active:hover {
+        background-color: rgba(49, 49, 49, 0);
+    }
+
+    .navbar .links .link-item-active a:hover {
+        color: #FFCA0F;
+    }
+
+    .card-full {
+        display: block;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    .card-button {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+    }
+    .card-body {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        margin-bottom: 90px;
+        margin-top: 40px;
+    }
+
+    .card-body-personal {
+
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .cards-pesonal {
+
+        display: block;
+    }
+
+    .active {
+        display: block;
+    }
+
+    
+
+}

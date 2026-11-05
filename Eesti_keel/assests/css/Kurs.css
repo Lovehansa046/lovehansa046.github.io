@@ -1,0 +1,60 @@
+body {
+    background: #272727;
+    background-image: url("/Eesti_keel/assests/img/bg-eestikeel.jpg");
+
+}
+
+.nav-link {
+    width: 325px;
+    /* height: 30px; */
+    padding: 16px;
+}
+
+.button {
+    /* display: block; */
+
+    padding: 80px 0px 40px 200px;
+    /* width: 200px; */
+    /* height: 200px; */
+}
+
+.button .btn {
+    background: #FFCA0F;
+}
+
+.nav-link .btn {
+    background: #FFCA0F;
+
+}
+
+.card {
+    margin-left: 210px;
+    text-align: center;
+    border-radius: 30px;
+    background: #38A0FF;
+}
+
+.card .btn {
+    margin-top: -20px;
+    margin-bottom: 30px;
+    padding: 15px;
+    border-radius: 30px;
+    background: #FFCA0F;
+}
+
+.card .card-title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0px 0px 20px 0px;
+}
+
+.card .card-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px 0px 20px 0px;
+
+}
+
+.card-title {
+    display: inline-table;
+
+}
+

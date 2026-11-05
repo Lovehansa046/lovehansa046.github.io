@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Eesti_keel/assests/css/kurs.css">
+    <title>Kurs</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container-icon">
+                <a href="#">
+                    <img src="/assets_index/Img_logo/Логотип_общий_белый.png" class="primary-icon">
+                </a>
+            </div>
+            <ul class="links" id="LINK">
+                <li class="link-item"><a href="/Eesti_keel/html/Teachers_info.html">Преподаватели</a></li>
+                <li class="link-item"><a href="/Eesti_keel/html/Info.html">Информация</a></li>
+                <li class="link-item"><a href="/Eesti_keel/html/Otziv.html">Отзывы</a></li>
+                <li class="link-item-active"><a href="#">Курсы</a></li>
+                <li class="link-item"><a href="/Eesti_keel/html/index.html">Выйти</a></li>
+            </ul>
+            <div class="menu" id="toggleButton">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="card-full">
+        <div class="card">
+            <div class="card-button">
+                <button type="button" class="card-button">
+                    <a class="btn-link" href="/Eesti_keel/html/Kurs_detail.html">
+                        Начальный курс
+                    </a>
+                </button>
+            </div>
+            <div class="card-body">
+                <h3 class="card-title-description">Кол-во часов:</h3>
+                <p class="card-description">200 часов</p>
+                <h3 class="card-title-description">Учитель:</h3>
+                <p class="card-description">Mari Mets</p>
+                <h3 class="card-title-description">Цена:</h3>
+                <p class="card-description">1200€</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-button">
+                <button type="button" class="card-button">
+                    <a class="btn-link" href="/Eesti_keel/html/Kurs_detail.html">
+                        Средний курс
+                    </a>
+                </button>
+            </div>
+            <div class="card-body">
+                <h3 class="card-title-description">Кол-во часов:</h3>
+                <p class="card-description">200 часов</p>
+                <h3 class="card-title-description">Учитель:</h3>
+                <p class="card-description">Mari Mets</p>
+                <h3 class="card-title-description">Цена:</h3>
+                <p class="card-description">1200€</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-button">
+                <button type="button" class="card-button">
+                    <a class="btn-link" href="/Eesti_keel/html/Kurs_detail.html">
+                        Продвинутый курс
+                    </a>
+                </button>
+            </div>
+            <div class="card-body">
+                <h3 class="card-title-description">Кол-во часов:</h3>
+                <p class="card-description">200 часов</p>
+                <h3 class="card-title-description">Учитель:</h3>
+                <p class="card-description">Mari Mets</p>
+                <h3 class="card-title-description">Цена:</h3>
+                <p class="card-description">1200€</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="button-back">
+        <a href="/Eesti_keel/html/kurs.html">
+            <img src="/Eesti_keel/assests/img/ARROW-BACK.png" alt="img-back">
+        </a>
+    </div>
+</body>
+<script>
+    const toggleButton = document.getElementById('toggleButton')
+    const navList = document.getElementById('LINK')
+
+    toggleButton.addEventListener('click', () => {
+        navList.classList.toggle('active');
+    })
+</script>
+
+</html>
+

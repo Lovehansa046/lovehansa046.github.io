@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/SushiBar/styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Sushi Bar</title>
+</head>
+
+<body>
+
+    <header class="header-info">
+        <div class="header">
+            <div class="language">
+                <div class="lang-item">
+                    <a href="#" class="est-img"><img src="/SushiBar/assets/EE-lipp.png" alt="EE"></a>
+                </div>
+                <div class="lang-item-active">
+                    <a href="#" class="rus-img"><img src="/SushiBar/assets/RUS-lipp.png" alt="RUS"></a>
+                </div>
+                <div class="lang-item">
+                    <a href="#" class="eng-img"><img src="/SushiBar/assets/ENG-lipp.png" alt="ENG"></a>
+                </div>
+            </div>
+            <div class="info-header">
+                <div class="info-header-item">
+                    <img src="/SushiBar/assets/clock.png" alt="clock" class="hours-work">
+                    <p class="hours-work-text">Пн-Чет 11:00-22:00 / Пт-Сб 11:00-23:00 / Вс 11:00-22:00</p>
+                </div>
+                <div class="info-header-item">
+                    <img src="/SushiBar/assets/mail.png" alt="email" class="email">
+                    <p class="email-text">example@example.com</p>
+                </div>
+                <div class="info-header-item">
+                    <img src="/SushiBar/assets/phone.png" alt="phone" class="phone">
+                    <p class="phone-text">+372 12 345 678</p>
+                </div>
+            </div>
+            <div class="value-city-header">
+                <img src="/SushiBar/assets/City.png" alt="city" class="city-img">
+                <p class="city">Город:</p>
+                <div class="dropdown">
+                    <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Narva
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark"
+                        aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Tallinn</a></li>
+                        <li><a class="dropdown-item" href="#">Pärnu</a></li>
+                        <li><a class="dropdown-item" href="#">Tartu</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <header class="header-navbar-primary">
+        <div class="header-navbar">
+            <div class="logo-icon">
+                <div class="logo">
+                    <a href="#" class="logo-href"><img src="/SushiBar/assets/LOGO.png" alt="logo" class="logo-img"></a>
+                    <p class="logo-text">Test Bar</p>
+                </div>
+                <div class="adapt-menu" id="toggleButton">
+                    <div class="adapt-item"></div>
+                    <div class="adapt-item"></div>
+                    <div class="adapt-item"></div>
+                </div>
+            </div>
+
+            <div class="navbar-menu" id="MENU">
+                <ul class="navbar-links">
+                    <div class="comunicate">
+                        <div class="language-mobile">
+                            <div class="lang-item">
+                                <a href="#" class="est-img"><img src="/SushiBar/assets/EE-lipp.png" alt="EE"></a>
+                            </div>
+                            <div class="lang-item-active">
+                                <a href="#" class="rus-img"><img src="/SushiBar/assets/RUS-lipp.png" alt="RUS"></a>
+                            </div>
+                            <div class="lang-item">
+                                <a href="#" class="eng-img"><img src="/SushiBar/assets/ENG-lipp.png" alt="ENG"></a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Narva
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark"
+                                aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Tallinn</a></li>
+                                <li><a class="dropdown-item" href="#">Pärnu</a></li>
+                                <li><a class="dropdown-item" href="#">Tartu</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <li class="link-item">
+                        <div class="dropdown-btn-menu">
+                            <button class="btn btn-none dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Меню
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Example</a></li>
+                                <li><a class="dropdown-item" href="#">Example</a></li>
+                                <li><a class="dropdown-item" href="#">Example</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="link-item">Оформление заказа</li>
+                    <li class="link-item">Новости</li>
+                    <li class="link-item">Контакты</li>
+                    <li class="link-item">
+                        <div class="dropdown-searh btn-group dropend">
+
+                            <!-- <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton1"> -->
+                            <form class="d-flex" role="search">
+                                <input class="form-control" type="search" placeholder="Поиск" aria-label="Поиск"
+                                    id="SEARCH">
+                            </form>
+                            <button class="btn btn-none" type="button" onclick="mysearch()">
+                                <img src="/SushiBar/assets/search.png" alt="" id="toggleButton-searh">
+                            </button>
+                            <!-- </ul> -->
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="registration-navbar" id="REG">
+                <p class="registration-text">Регестрация</p>
+                <!-- <p class="registration-text-mobile">Регестрация</p> -->
+                <div class="button-reg">
+                    <button class="btn-reg">
+                        <img src="/SushiBar/assets/reg-icon.png" alt="reg-icon" class="login-img">
+                        <p class="reg-text">Войти</p>
+                    </button>
+                </div>
+                <div class="button-sale">
+                    <button class="btn-sale">
+                        <img src="/SushiBar/assets/sale.png" alt="sale-icon" class="sale-img">
+                        <p class="sale-text">0$</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-full">
+        <div class="container__content">
+            <a href="#"><button class="cashback__btn">
+                    "Sushi House CASHBACK"
+                </button></a>
+            <div class="content-text">
+                <h2>
+                    ВАУ!
+                    </br>
+                    15% возварата с каждого заказа?
+                    </br>
+                    Присоединяйся к нам скорее!
+                </h2>
+            </div>
+            <a href="#">
+                <button class="more">
+                    Подробнее
+                </button>
+            </a>
+            <img src="/SushiBar/assets/other-page.svg" alt="" class="other">
+        </div>
+
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
+<script src="/SushiBar/js/test.js"></script>
+
+</html>

@@ -1,0 +1,669 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(255, 255, 255);
+    width: 80%;
+}
+
+.language {
+    margin-right: auto;
+    /* background: orange; */
+    display: flex;
+
+}
+
+.language-mobile {
+    margin-right: auto;
+    /* background: orange; */
+    display: flex;
+
+}
+
+.lang-item {
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-right: 4px;
+    background: rgb(97, 97, 97);
+    margin-left: 10px;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+.lang-item-active {
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-right: 4px;
+    background: rgb(212, 205, 1);
+    margin-left: 10px;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+.lang-item-active img {
+    margin-bottom: 4px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+.lang-item img {
+    margin-bottom: 4px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+.info-header {
+    margin-left: auto;
+    margin-right: auto;
+    /* background: yellow; */
+    display: flex;
+}
+
+.info-header-item {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info-header-item img {
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: 7px;
+    margin-right: 7px;
+    width: 20px;
+    height: 20px;
+}
+
+.info-header-item p {
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: 2px;
+    font-size: 12px;
+}
+
+.hours-work-text {
+    font-weight: 400;
+}
+
+.email-text {
+    font-weight: 400;
+}
+
+.phone-text {
+    font-weight: 400;
+}
+
+.value-city-header {
+    margin-left: auto;
+    display: flex;
+    /* background: lightgreen; */
+}
+
+.city-img {
+    width: 24px;
+    height: 24px;
+}
+
+.dropdown {
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.dropdown .btn {
+    width: 100px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.city {
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: 3px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.city-img {
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-right: 3px;
+    margin-left: 5px;
+}
+
+.header-info {
+    background: white;
+}
+
+
+
+
+.header-navbar-primary {
+    background: rgb(88, 88, 88);
+}
+
+.header-navbar {
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(88, 88, 88);
+}
+
+.logo-icon {
+    margin-right: auto;
+
+    /* background: lightblue; */
+}
+
+.logo {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.logo-img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 110px;
+    height: auto;
+}
+
+.logo-text {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.navbar-menu {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    /* background: yellow; */
+}
+
+.navbar-links {
+    margin: auto;
+    list-style-type: none;
+    display: flex;
+}
+
+.link-item {
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.dropdown-btn-menu .btn {
+    border: none;
+    color: white;
+    background: none;
+    margin-right: -10px;
+    transition: 1s;
+}
+
+
+.dropdown-btn-menu .btn:hover {
+    transform: scale(1.1);
+    background: none;
+}
+
+.dropdown-searh .btn {
+    border: none;
+    color: rgba(0, 0, 0, 0);
+    background: none;
+    margin-left: -10px;
+}
+
+.dropdown-searh .btn:hover {
+    background: fixed;
+}
+
+.dropdown-searh img {
+    width: 20px;
+    height: 20px;
+}
+
+.registration-navbar {
+    margin-left: auto;
+    
+    /* background: greenyellow; */
+    display: flex;
+}
+
+.registration-text {
+    color: orange;
+    margin-left: 10px;
+    font-size: 18px;
+    /* font-weight: 500; */
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* .registration-text-mobile {
+    color: orange;
+    margin-left: 10px;
+    font-size: 18px;
+    display: none;
+    font-weight: 500;
+    margin-top: auto;
+    margin-bottom: auto;
+} */
+
+.button-reg {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+
+.btn-reg {
+    border: none;
+    background: orange;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.login-img {
+    width: 28px;
+    margin-left: 10px;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.reg-text {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.button-sale {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 30px;
+}
+
+.sale-img {
+
+    width: 40px;
+    margin-left: 10px;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.sale-text {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.btn-sale {
+
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    background: red;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+
+}
+
+.adapt-menu {
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    display: none;
+}
+
+.adapt-item {
+    width: 30px;
+    height: 3px;
+    margin-right: 15px;
+    background-color: white;
+    margin-bottom: 5px;
+
+}
+
+.comunicate {
+    display: none;
+}
+
+.d-flex .btn {
+    background: rgba(255, 0, 0, 0);
+}
+
+
+
+.form-control {
+    display: none;
+}
+
+.other-page {
+    margin-top: 20px;
+    display: flex;
+}
+
+.active-pages {
+    background: #EF8F32;
+    width: 21px;
+    height: 21px;
+    border-radius: 100%;
+}
+
+.other-page .pages {
+    background: transparent;
+    border: 2px solid #EF8F32;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+    margin-top: -10px;
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    margin-top: 4px;
+    text-align: center;
+}
+
+.other-page .pages-active {
+    background: transparent;
+    border: 2px solid #ffffff;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+    margin-top: -10px;
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    margin-top: 4px;
+    text-align: center;
+}
+
+.cashback__btn {
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    background: #EF8F32;
+    font-size: 24px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.more {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 24px;
+    background: red;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.content-text h2 {
+    color: white;
+    font-size: 48px;
+}
+
+.container-full {
+    background: linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.4)), url(/SushiBar/assets/sushibg-1-bg.png) no-repeat;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
+.container__content {
+    margin: auto;
+    background: rgba(0, 0, 0, 0);
+    width: 80%;
+    height: 600px;
+    padding-top: 100px;
+    /* text-align: center; */
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.other {
+    display: block;
+    margin-top: 20px;
+    margin-left: 5px;
+    /* margin-right: auto;
+    margin-left: auto; */
+}
+
+@media (max-width: 1400px) {
+    .registration-navbar {
+        display: block;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .registration-text {
+        display: none;
+    }
+
+    /* .registration-text-mobile {
+        display: flex;
+    } */
+
+    .button-reg {
+        margin-bottom: 10px;
+    }
+
+    .logo-img {
+        height: 70px;
+        width: 70px;
+    }
+
+    .logo-text {
+        font-size: 14px;
+    }
+
+    .link-item {
+        font-size: 14px;
+    }
+
+    .navbar-menu {
+        margin-left: -30px;
+        margin-right: auto;
+    }
+
+    .hours-work {
+        display: none;
+    }
+
+    .hours-work-text {
+        display: none;
+    }
+
+    .info-header-item {
+        padding-right: 80px;
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+
+
+}
+
+@media (max-width:1100px) {
+    .email {
+        display: none;
+    }
+
+    .email-text {
+        display: none;
+    }
+
+    .info-header-item {
+        font-size: 24px;
+    }
+
+}
+
+@media (max-width:840px) {
+    .language {
+        display: none;
+    }
+
+    .value-city-header {
+        display: none;
+    }
+
+    .header {
+        height: 40px;
+    }
+
+    .info-header-item {
+        margin-right: -70px;
+    }
+
+    .phone-text {
+        font-weight: 800;
+    }
+
+    .content-text h2 {
+        font-size: 36px;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .navbar-menu {
+        display: none;
+    }
+
+    .navbar-links {
+        display: block;
+        list-style-type: none;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        /* display: none; */
+    }
+
+    .link-item {
+        /* margin-bottom: 20px; */
+        padding-top: 20px;
+        margin-top: 20px;
+        display: block;
+        border-top: 1px solid white;
+    }
+
+    .registration-navbar {
+        margin-top: 10px;
+        display: none;
+        text-align: center;
+
+        border-top: 1px solid white;
+
+
+    }
+
+    /* .dropdown-btn-menu {
+        margin-top: 20px;
+    }
+*/
+
+    .d-flex .form-control {
+        display: flex;
+    }
+
+    
+    /* .registration-text-mobile {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: block;
+    } */
+    
+
+    .dropdown .dropdown-item {
+        text-align: center;
+    }
+
+    .button-reg {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .button-sale {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .header-navbar {
+        display: block;
+    }
+
+    .registration-navbar {
+        /* width: 500px; */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logo-icon {
+        display: flex;
+        /* width: 100%; */
+        /* margin-right: 500px; */
+    }
+
+    .adapt-menu {
+        display: block;
+    }
+
+    .comunicate {
+        display: flex;
+        margin-bottom: 50px;
+    }
+
+
+    .active {
+        display: block;
+    }
+
+}
+
+@media (max-width:1000px){
+    .registration-text {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: block;
+    }
+}

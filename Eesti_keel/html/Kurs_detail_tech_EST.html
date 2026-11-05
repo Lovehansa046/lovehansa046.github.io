@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Eesti_keel/assests/css/kurs.css">
+    <title>Kurs</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container-icon">
+                <a href="#">
+                    <img src="/assets_index/Img_logo/Логотип_общий_белый.png" class="primary-icon">
+                </a>
+            </div>
+            <ul class="links" id="LINK">
+                <li class="link-item"><a href="/Eesti_keel/html/Teachers_info_EST.html">Õpetajad</a></li>
+                <li class="link-item"><a href="/Eesti_keel/html/Info_EST.html">Informatsioon</a></li>
+                <li class="link-item"><a href="/Eesti_keel/html/Otziv_EST.html">Arvustused</a></li>
+                <li class="link-item-active"><a href="#">Kursused</a></li>
+                <li class="link-item"><a href="/Eesti_keel/html/index_EST.html">Logi välja</a></li>
+            </ul>
+            <div class="menu" id="toggleButton">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="card-full">
+        <div class="card">
+            <div class="card-button">
+                <button type="button" class="card-button">
+                    <a class="btn-link" href="/Eesti_keel/html/Kurs_detail_EST.html">
+                        Algne kurs
+                    </a>
+                </button>
+            </div>
+            <div class="card-body">
+                <h3 class="card-title">Tundide arv:</h3>
+                <p class="card-text">200 tundi</p>
+                <h3 class="card-title">Õpetaja:</h3>
+                <p class="card-text">Mari Mets</p>
+                <h3 class="card-title">Hind:</h3>
+                <p class="card-text">1200 €</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-button">
+                <button type="button" class="card-button">
+                    <a class="btn-link" href="/Eesti_keel/html/Kurs_detail_EST.html">
+                        Keskmine kurs
+                    </a>
+                </button>
+            </div>
+            <div class="card-body">
+                <h3 class="card-title">Tundide arv:</h3>
+                <p class="card-text">450 tundi</p>
+                <h3 class="card-title">Õpetaja:</h3>
+                <p class="card-text">Mari Mets</p>
+                <h3 class="card-title">Hind:</h3>
+                <p class="card-text">1800 €</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-button">
+                <button type="button" class="card-button">
+                    <a class="btn-link" href="/Eesti_keel/html/Kurs_detail_EST.html">
+                        Täpsem kurs
+                    </a>
+                </button>
+            </div>
+            <div class="card-body">
+                <h3 class="card-title">Tundide arv:</h3>
+                <p class="card-text">450 tundi</p>
+                <h3 class="card-title">Õpetaja:</h3>
+                <p class="card-text">Mari Mets</p>
+                <h3 class="card-title">Hind:</h3>
+                <p class="card-text">2500 €</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="button-back">
+        <a href="/Eesti_keel/html/Kurs_teacher_EST.html">
+            <img src="/Eesti_keel/assests/img/ARROW-BACK.png" alt="img-back">
+        </a>
+    </div>
+</body>
+<script>
+    const toggleButton = document.getElementById('toggleButton')
+    const navList = document.getElementById('LINK')
+
+    toggleButton.addEventListener('click', () => {
+        navList.classList.toggle('active');
+    })
+</script>
+
+</html>

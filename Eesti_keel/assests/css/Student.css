@@ -1,0 +1,38 @@
+* {
+    margin: auto;
+    height: auto;
+}
+body {
+    background: #272727;
+}
+.form {
+    /* text-align: center; */
+    margin: 40px;
+    border-radius: 25px;
+    background: #38A0FF;
+    width: auto ;
+    height: auto  ;
+    margin-left: auto ;
+}
+
+.form .mb-3 {
+    margin: 30px;
+}
+
+.button {
+    padding: 20px 10px 40px 10px;
+    margin: 20px ;
+}
+
+.form H2 {
+    text-align: center;
+    padding: 40px 20px 40px 0px;
+    /* margin-left: auto; */
+}
+
+.img {
+    padding: 40px;
+    text-align: center;
+    /* margin: 80px;
+    margin-left: 680px; */
+}

@@ -1,0 +1,44 @@
+body {
+    background: #272727;
+    background-image: url("/Eesti_keel/assests/img/eesti-keel-1140x200.png");
+
+}
+
+.nav-link {
+    width: 325px;
+    /* height: 30px; */
+    padding: 16px;
+}
+
+.button {
+    /* display: block; */
+
+    padding: 80px 0px 40px 200px;
+    /* width: 200px; */
+    /* height: 200px; */
+}
+
+.button .btn {
+    background: #FFCA0F;
+}
+
+.nav-link .btn {
+    background: #FFCA0F;
+
+}
+
+.card-form .card {
+    margin-left: auto;
+    text-align: center;
+    border-radius: 30px;
+    background: #38A0FF;
+}
+
+.card-form {
+    padding: 20px 20px 20px 20px;
+
+}
+
+
+
+
